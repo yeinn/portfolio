@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portpolio/static/css/main.d937201e.chunk.css",
-    "main.js": "/portpolio/static/js/main.cbd1ae96.chunk.js",
-    "main.js.map": "/portpolio/static/js/main.cbd1ae96.chunk.js.map",
+    "main.js": "/portpolio/static/js/main.d23d38f9.chunk.js",
+    "main.js.map": "/portpolio/static/js/main.d23d38f9.chunk.js.map",
     "runtime-main.js": "/portpolio/static/js/runtime-main.8067e4d6.js",
     "runtime-main.js.map": "/portpolio/static/js/runtime-main.8067e4d6.js.map",
-    "static/js/2.64c08e7c.chunk.js": "/portpolio/static/js/2.64c08e7c.chunk.js",
-    "static/js/2.64c08e7c.chunk.js.map": "/portpolio/static/js/2.64c08e7c.chunk.js.map",
+    "static/js/2.95dc1d3a.chunk.js": "/portpolio/static/js/2.95dc1d3a.chunk.js",
+    "static/js/2.95dc1d3a.chunk.js.map": "/portpolio/static/js/2.95dc1d3a.chunk.js.map",
     "index.html": "/portpolio/index.html",
     "static/css/main.d937201e.chunk.css.map": "/portpolio/static/css/main.d937201e.chunk.css.map",
-    "static/js/2.64c08e7c.chunk.js.LICENSE.txt": "/portpolio/static/js/2.64c08e7c.chunk.js.LICENSE.txt"
+    "static/js/2.95dc1d3a.chunk.js.LICENSE.txt": "/portpolio/static/js/2.95dc1d3a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8067e4d6.js",
-    "static/js/2.64c08e7c.chunk.js",
+    "static/js/2.95dc1d3a.chunk.js",
     "static/css/main.d937201e.chunk.css",
-    "static/js/main.cbd1ae96.chunk.js"
+    "static/js/main.d23d38f9.chunk.js"
   ]
 }
