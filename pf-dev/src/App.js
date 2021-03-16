@@ -13,11 +13,16 @@ function App() {
     <div className="app-container">
         <BrowserRouter>
         <Header/>
-        <Nav />
-        <Router>
+        <div className="app-wrapper">
+          <Home/>
+        {/* <Router>
           <Route path="/" exact component={Home}/>
-        </Router>
+        </Router> */}
+        <Nav />
+        </div>
+
         </BrowserRouter>
+        
     </div>
   );
 }

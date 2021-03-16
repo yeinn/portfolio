@@ -1,3 +1,19 @@
+$purple-1: #3e2170;
+$putple-2: #2a1759;
+$white: #fff;
+$gray-0: #b0abb7;
+$gray-00: #4D4F5F;
+$gray-1: #2a2c3b;
+$gray-2: #232532;
+$gray-yellow: #2d313a;
+
+$red: #c34275;
+$mint: #00d681;
+$blue: #19d6eb;
+$yellow: #d4c12b;
+$orange: #ce7f05;
+$green: #8add39;
+
 //레아이웃
 .app-container, #root, body, html {
     height: 100%;
@@ -6,19 +22,21 @@
 #root{
     display: flex;
     align-items: center;
-    background: black;
+    background: linear-gradient(91deg, #571F78 0%, #3D1961 100%) 0% 0% no-repeat padding-box;
 }
 
 .app-container {
     max-width: 1280px;
     max-height: 680px;
-    background: gray;
     width: 100%;
     display: block;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     border-radius: 6px;
+    background-color: $gray-2;
+    color: $gray-0;
+    box-shadow: 0px 10px 50px #0000009C;;
 }
 @media(max-width: 1280px){
     .app-container{
@@ -26,8 +44,39 @@
     }
 
 }
-// @media (min-width: 600px){
-//     .app-container {
 
-//     }
-//     }
+
+.app-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+}
+//color
+.red{color: $red;}
+.mint{color: $mint;}
+.blue{color: $blue;}
+
+//home
+section.app-inner{
+    background-color: $gray-1;
+    height: 100%;
+    width: 100%;
+    pre{
+        color: $gray-00;
+    }
+    .content-area{
+        padding: 16px;
+    }
+}
+
+.home-content{
+    font-size: 43px;
+    padding:10rem 1rem 14rem 3rem;
+}
+
+
+//nav
+nav{
+    width: 20%;
+}
