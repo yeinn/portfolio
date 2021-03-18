@@ -14,12 +14,13 @@ function App() {
         <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header/>
         <div className="app-wrapper">
-          {/* <Home/> */}
-        <Router>
-          <Route path="/" exact component={Home}/>
-        </Router>
+          <Router>
+          <Route path={["/","/portfolio"]} exact component={Home}/>
+          </Router>
         <Nav />
         </div>
+
+        
 
         </BrowserRouter>
         
