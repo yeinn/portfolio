@@ -11,13 +11,13 @@ function App() {
   return (
     
     <div className="app-container">
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header/>
         <div className="app-wrapper">
-          <Home/>
-        {/* <Router>
-          <Route path="/" exact component={Home}/>
-        </Router> */}
+          {/* <Home/> */}
+        <Router>
+          <Route path="/portpolio" exact component={Home}/>
+        </Router>
         <Nav />
         </div>
 
