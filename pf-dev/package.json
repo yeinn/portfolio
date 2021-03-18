@@ -48,6 +48,8 @@
   "compilerOptions": {
     "baseUrl": "src"
   },
-  "include": ["src"],
+  "include": [
+    "src"
+  ],
   "homepage": "http://yeinn.github.io/portfolio"
 }

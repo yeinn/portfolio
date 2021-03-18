@@ -16,7 +16,7 @@ function App() {
         <div className="app-wrapper">
           {/* <Home/> */}
         <Router>
-          <Route path="/portpolio" exact component={Home}/>
+          <Route path="/" exact component={Home}/>
         </Router>
         <Nav />
         </div>
